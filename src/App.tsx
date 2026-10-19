@@ -8,6 +8,7 @@ import { NewsSection } from './components/NewsSection';
 import { QuoteSection } from './components/QuoteSection';
 import { QuickNav } from './components/QuickNav';
 import { Footer } from './components/Footer';
+import { Chatbot } from './components/Chatbot';
 
 // Modals
 import { ProductDetailModal } from './components/Modals/ProductDetailModal';
@@ -171,6 +172,14 @@ export default function App() {
           onClose={() => setIsRecruitOpen(false)}
         />
       )}
+
+      {/* 24/7 AI Gas Engineering Technical Chatbot */}
+      <Chatbot
+        onOpenQuote={(gasName) => handleOpenQuote(gasName)}
+        onOpenMsds={() => setIsMsdsOpen(true)}
+        onOpenLocations={() => setIsLocationsOpen(true)}
+        onOpenCatalog={() => setIsCatalogOpen(true)}
+      />
     </div>
   );
 }
