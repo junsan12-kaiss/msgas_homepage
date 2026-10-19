@@ -1,0 +1,6 @@
+{
+  "name": "MS Gas Corporation | (주)MS가스",
+  "description": "1974년 창립 이래 50년간 대한민국 첨단 산업과 에너지를 견인해 온 원스톱 초저온·산업·특수가스 공급 및 엔지니어링 솔루션",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
